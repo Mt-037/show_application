@@ -1,0 +1,44 @@
+name: show_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dépendances principales
+  http: ^1.1.0        # Version mise à jour
+  image_picker: ^1.0.4  # Version stable
+  shared_preferences: ^2.2.2  # Version récente
+  provider: ^6.1.1      # Version mise à jour
+  fluttertoast: ^8.2.2
+  permission_handler: ^10.4.5  # Version récente
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  cached_network_image: ^3.2.3  # Version stable
+
+  # UI
+  cupertino_icons: ^1.0.6
+  flutter_slidable: ^3.0.0  # Version récente
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mockito: ^5.4.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf

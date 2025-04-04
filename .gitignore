@@ -1,0 +1,8 @@
+/show-app-backend/node_modules/
+/show-app-backend/.env
+# Backend
+/show-app-backend/node_modules/
+/show-app-backend/.env
+# Frontend
+/show_app_frontend/build/
+/show_app_frontend/.dart_tool/
